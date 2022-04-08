@@ -1,0 +1,238 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 2) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_processing_system7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rst_processing_system7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 3) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+Added parameter PCW_GP0_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_EN_MODIFIABLE_TXN with value 0 (source 'default')
+Added parameter PCW_GP1_EN_MODIFIABLE_TXN with value 0 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_data_fifo_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axis_data_fifo_0_0 from xilinx.com:ip:axis_data_fifo:1.1 (Rev. 10) to xilinx.com:ip:axis_data_fifo:2.0 (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axis_data_fifo_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'axis_data_count'
+
+
+3. Upgrade messages
+-------------------
+
+Added parameter HAS_WR_DATA_COUNT with value 1 (source 'default')
+Added parameter HAS_RD_DATA_COUNT with value 1 (source 'default')
+
+4. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'SYNCHRONIZATION_STAGES' from '3' to '2' has been ignored for IP 'design_1_axis_data_fifo_0_0'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 -user_name design_1_axis_data_fifo_0_0
+set_property -dict "\
+  CONFIG.ACLKEN_CONV_MODE {0} \
+  CONFIG.Component_Name {design_1_axis_data_fifo_0_0} \
+  CONFIG.FIFO_DEPTH {1024} \
+  CONFIG.FIFO_MODE {1} \
+  CONFIG.HAS_RD_DATA_COUNT {1} \
+  CONFIG.HAS_TKEEP {1} \
+  CONFIG.HAS_TLAST {1} \
+  CONFIG.HAS_TREADY {1} \
+  CONFIG.HAS_TSTRB {0} \
+  CONFIG.HAS_WR_DATA_COUNT {1} \
+  CONFIG.IS_ACLK_ASYNC {0} \
+  CONFIG.M_AXIS.CLK_DOMAIN {design_1_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.M_AXIS.FREQ_HZ {50000000} \
+  CONFIG.M_AXIS.HAS_TKEEP {1} \
+  CONFIG.M_AXIS.HAS_TLAST {1} \
+  CONFIG.M_AXIS.HAS_TREADY {1} \
+  CONFIG.M_AXIS.HAS_TSTRB {0} \
+  CONFIG.M_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M_AXIS.PHASE {0.000} \
+  CONFIG.M_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M_AXIS.TID_WIDTH {0} \
+  CONFIG.M_AXIS.TUSER_WIDTH {0} \
+  CONFIG.SYNCHRONIZATION_STAGES {2} \
+  CONFIG.S_AXIS.CLK_DOMAIN {design_1_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.S_AXIS.FREQ_HZ {50000000} \
+  CONFIG.S_AXIS.HAS_TKEEP {1} \
+  CONFIG.S_AXIS.HAS_TLAST {1} \
+  CONFIG.S_AXIS.HAS_TREADY {1} \
+  CONFIG.S_AXIS.HAS_TSTRB {0} \
+  CONFIG.S_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.S_AXIS.PHASE {0.000} \
+  CONFIG.S_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.S_AXIS.TDEST_WIDTH {0} \
+  CONFIG.S_AXIS.TID_WIDTH {0} \
+  CONFIG.S_AXIS.TUSER_WIDTH {0} \
+  CONFIG.S_CLKIF.ASSOCIATED_BUSIF {S_AXIS:M_AXIS} \
+  CONFIG.S_CLKIF.ASSOCIATED_RESET {s_axis_aresetn} \
+  CONFIG.S_CLKIF.CLK_DOMAIN {design_1_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.S_CLKIF.FREQ_HZ {50000000} \
+  CONFIG.S_CLKIF.PHASE {0.000} \
+  CONFIG.S_RSTIF.POLARITY {ACTIVE_LOW} \
+  CONFIG.TDATA_NUM_BYTES {4} \
+  CONFIG.TDEST_WIDTH {0} \
+  CONFIG.TID_WIDTH {0} \
+  CONFIG.TUSER_WIDTH {0} " [get_ips design_1_axis_data_fifo_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 10) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Apr  7 19:34:34 2022
+| Host         : AsusP8 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_dma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_dma_0_0 (xilinx.com:ip:axi_dma:7.1) from (Rev. 10) to (Rev. 26)
+

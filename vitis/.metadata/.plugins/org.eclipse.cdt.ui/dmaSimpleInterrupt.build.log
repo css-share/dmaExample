@@ -1,0 +1,33 @@
+20:16:51 **** Build of configuration Debug for project dmaSimpleInterrupt ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/sw/dmaEx_pfmPrj/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/xaxidma_example_simple_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/sw/dmaEx_pfmPrj/standalone_domain/bspinclude/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+  116 | #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+      |  ^~~~~~~
+'Finished building: ../src/xaxidma_example_simple_intr.c'
+' '
+'Building target: dmaSimpleInterrupt.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/sw/dmaEx_pfmPrj/standalone_domain/bsplib/lib -o "dmaSimpleInterrupt.elf"  ./src/platform.o ./src/xaxidma_example_simple_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dmaSimpleInterrupt.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dmaSimpleInterrupt.elf  |tee "dmaSimpleInterrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39828	   3024	  24552	  67404	  1074c	dmaSimpleInterrupt.elf
+'Finished building: dmaSimpleInterrupt.elf.size'
+' '
+
+20:16:51 Build Finished (took 635ms)
+

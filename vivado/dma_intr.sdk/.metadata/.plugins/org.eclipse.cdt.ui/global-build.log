@@ -1,0 +1,496 @@
+11:29:48 **** Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_8/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_3/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_2/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/canps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/canps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_8/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_3/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_2/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling axidma
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/canps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling canps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+11:33:41 **** Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:105:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building file: ../src/xaxidma_multichan_sg_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_multichan_sg_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_multichan_sg_intr.d" -MT"src/xaxidma_multichan_sg_intr.o" -o "src/xaxidma_multichan_sg_intr.o" "../src/xaxidma_multichan_sg_intr.c"
+../src/xaxidma_multichan_sg_intr.c:118:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_multichan_sg_intr.c: In function ‘main’:
+../src/xaxidma_multichan_sg_intr.c:136:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:335:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID,
+                                           ^
+../src/xaxidma_multichan_sg_intr.c:136:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:335:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID,
+                                           ^
+../src/xaxidma_multichan_sg_intr.c:135:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_multichan_sg_intr.c:336:6: note: in expansion of macro ‘RX_INTR_ID’
+      RX_INTR_ID, 1);
+      ^
+make: *** [src/xaxidma_multichan_sg_intr.o] Error 1
+11:33:53 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_poll.o ./src/xaxidma_multichan_sg_intr.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_poll.d ./src/xaxidma_multichan_sg_intr.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size  standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+ 
+11:33:53 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:105:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building file: ../src/xaxidma_poll_multi_pkts.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_poll_multi_pkts.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_poll_multi_pkts.d" -MT"src/xaxidma_poll_multi_pkts.o" -o "src/xaxidma_poll_multi_pkts.o" "../src/xaxidma_poll_multi_pkts.c"
+../src/xaxidma_poll_multi_pkts.c:110:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_poll_multi_pkts.c: In function ‘RxSetup’:
+../src/xaxidma_poll_multi_pkts.c:372:12: warning: assignment makes pointer from integer without a cast
+   BdCurPtr = XAxiDma_BdRingNext(RxRingPtr, BdCurPtr);
+            ^
+../src/xaxidma_poll_multi_pkts.c: In function ‘SendPackets’:
+../src/xaxidma_poll_multi_pkts.c:558:12: warning: assignment makes pointer from integer without a cast
+   CurBdPtr = XAxiDma_BdRingNext(TxRingPtr, CurBdPtr);
+            ^
+Finished building: ../src/xaxidma_poll_multi_pkts.c
+ 
+Building target: standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "standalone_bsp_0_xaxidma_example_simple_poll_1.elf"  ./src/xaxidma_example_simple_poll.o ./src/xaxidma_poll_multi_pkts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/xaxidma_poll_multi_pkts.o: In function `main':
+/proj/css/Krishna.M/dma_designs/simple_dma/simple_dma.sdk/standalone_bsp_0_xaxidma_example_simple_poll_1/Debug/../src/xaxidma_poll_multi_pkts.c:178: multiple definition of `main'
+./src/xaxidma_example_simple_poll.o:/proj/css/Krishna.M/dma_designs/simple_dma/simple_dma.sdk/standalone_bsp_0_xaxidma_example_simple_poll_1/Debug/../src/xaxidma_example_simple_poll.c:159: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [standalone_bsp_0_xaxidma_example_simple_poll_1.elf] Error 1
+11:33:57 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_poll.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_poll.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size  standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+ 
+11:33:57 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:105:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building target: standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "standalone_bsp_0_xaxidma_example_simple_poll_1.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size standalone_bsp_0_xaxidma_example_simple_poll_1.elf  |tee "standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34084	   1216	  24308	  59608	   e8d8	standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+Finished building: standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size
+ 
+11:34:20 **** Incremental Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+11:42:01 **** Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+11:42:13 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_intr.o ./src/xaxidma_multichan_sg_intr.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_intr.d ./src/xaxidma_multichan_sg_intr.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size  standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+ 
+11:42:13 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+11:42:18 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_intr.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_intr.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size  standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+ 
+11:42:18 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:02:12 **** Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:02:28 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_intr.o ./src/xaxidma_multichan_sg_intr.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_intr.d ./src/xaxidma_multichan_sg_intr.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size  standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+ 
+13:02:28 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:02:31 **** Clean-only build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make clean 
+rm -rf  ./src/xaxidma_example_simple_intr.o ./src/xaxidma_poll_multi_pkts.o  ./src/xaxidma_example_simple_intr.d ./src/xaxidma_poll_multi_pkts.d  standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size  standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+ 
+13:02:31 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:04:09 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:128:21: error: ‘XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+../src/xaxidma_example_simple_intr.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define TX_INTR_ID  XPAR_FABRIC_AXIDMA_0_MM2S_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:43: note: in expansion of macro ‘TX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                           ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:04:19 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+../src/xaxidma_example_simple_intr.c: In function ‘main’:
+../src/xaxidma_example_simple_intr.c:127:21: error: ‘XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID’ undeclared (first use in this function)
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+../src/xaxidma_example_simple_intr.c:127:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define RX_INTR_ID  XPAR_FABRIC_AXIDMA_0_S2MM_INTROUT_VEC_ID
+                     ^
+../src/xaxidma_example_simple_intr.c:282:55: note: in expansion of macro ‘RX_INTR_ID’
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                                       ^
+make: *** [src/xaxidma_example_simple_intr.o] Error 1
+13:04:36 **** Auto Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xaxidma_example_simple_intr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
+../src/xaxidma_example_simple_intr.c:116:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^
+Finished building: ../src/xaxidma_example_simple_intr.c
+ 
+Building target: standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "standalone_bsp_0_xaxidma_example_simple_intr_1.elf"  ./src/xaxidma_example_simple_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size standalone_bsp_0_xaxidma_example_simple_intr_1.elf  |tee "standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37956	   2792	  24340	  65088	   fe40	standalone_bsp_0_xaxidma_example_simple_intr_1.elf
+Finished building: standalone_bsp_0_xaxidma_example_simple_intr_1.elf.size
+ 
+13:05:18 **** Incremental Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:05:40 **** Incremental Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:08:11 **** Incremental Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_intr_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.

@@ -1,0 +1,16 @@
+Nothing to build in platform 'dmaEx_pfmPrj'
+
+20:34:17 **** Incremental Build of configuration Debug for project dmaSimplePoll ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+20:34:17 **** Incremental Build of configuration Debug for project dmaSimplePoll_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 21831 C:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/dmaEx_pfmPrj.xpfm standalone_domain C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll_system/Debug/system.bif
+sdcard_gen --xpfm C:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/dmaEx_pfmPrj.xpfm --sys_config dmaEx_pfmPrj --bif C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll_system/Debug/system.bif --bitstream C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll/_ide/bitstream/design_1_wrapper.bit --elf C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll/Debug/dmaSimplePoll.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image C:/Xilinx_projects/dmaExample/vitis/dmaSimplePoll_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
