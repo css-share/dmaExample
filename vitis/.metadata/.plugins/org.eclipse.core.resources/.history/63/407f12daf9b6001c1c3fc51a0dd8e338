@@ -115,8 +115,7 @@
 #ifndef DDR_BASE_ADDR
 #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
 		DEFAULT SET TO 0x01000000
-#define MEM_BASE_ADDR		XPAR_PS7_DDR_0_S_AXI_BASEADDR
-#define MEM_HIGH_ADDR		XPAR_PS7_DDR_0_S_AXI_HIGHADDR
+#define MEM_BASE_ADDR		0x01000000
 #else
 #define MEM_BASE_ADDR		(DDR_BASE_ADDR + 0x1000000)
 #endif
@@ -156,7 +155,7 @@
 /*
  * Buffer and Buffer Descriptor related constant definition
  */
-#define MAX_PKT_LEN		0x20000
+#define MAX_PKT_LEN		0x100
 
 #define NUMBER_OF_TRANSFERS	10
 
@@ -448,7 +447,7 @@ static int CheckData(int Length, u8 StartValue)
 		}
 		Value = (Value + 1) & 0xFF;
 	}
-	xil_printf("Verified %d bytes: \r\n",Index);
+
 	return XST_SUCCESS;
 }
 

@@ -1,14 +1,9 @@
-20:16:51 **** Build of configuration Debug for project dmaSimpleInterrupt ****
+23:04:40 **** Incremental Build of configuration Debug for project dmaSimpleInterrupt ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/sw/dmaEx_pfmPrj/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building file: ../src/xaxidma_example_simple_intr.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx_projects/dmaExample/vitis/dmaEx_pfmPrj/export/dmaEx_pfmPrj/sw/dmaEx_pfmPrj/standalone_domain/bspinclude/include -MMD -MP -MF"src/xaxidma_example_simple_intr.d" -MT"src/xaxidma_example_simple_intr.o" -o "src/xaxidma_example_simple_intr.o" "../src/xaxidma_example_simple_intr.c"
@@ -25,9 +20,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size dmaSimpleInterrupt.elf  |tee "dmaSimpleInterrupt.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  39828	   3024	  24552	  67404	  1074c	dmaSimpleInterrupt.elf
+  39852	   3024	  24552	  67428	  10764	dmaSimpleInterrupt.elf
 'Finished building: dmaSimpleInterrupt.elf.size'
 ' '
 
-20:16:51 Build Finished (took 635ms)
+23:04:40 Build Finished (took 540ms)
 
